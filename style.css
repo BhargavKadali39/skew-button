@@ -1,1 +1,36 @@
 
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #fdd497;
+}
+
+button{
+    position:absolute;
+    font-size: 28px;
+    font-family: monospace;
+    height: 100px;
+    width: 250px;
+    padding: 30px;
+    top: 40%;
+    border-radius: 10px;
+    transform: skew(5deg) rotate(-5deg);
+    background-color: #ffe8c5;
+    box-shadow: -19px 18px 2px #9c8556;
+    left: 40%;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: -7px 9px 2px #645538;
+    transform: skew(5deg) rotate(-5deg) translateX(-20px);
+}
+
+button:active{
+    box-shadow: none;
+    transition: box-shadow transform 0.3s;
+    cursor: progress;
+    transform: skew(5deg) rotate(-5deg) translateX(-25px);
+
+}
