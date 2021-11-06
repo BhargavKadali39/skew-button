@@ -1,7 +1,7 @@
 # skew-button
 skewing button using pure css 
 
-Hands-on trial at my [site]() and as code [pen](https://codepen.io/bhargavkadali39/pen/ExvEomy)
+Hands-on trial at my [site](https://skew-button.vercel.app/) and as code [pen](https://codepen.io/bhargavkadali39/pen/ExvEomy)
 
 the video preview is here below
 
